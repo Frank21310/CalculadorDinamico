@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Subtotal, IVA y Total</title>
+</head>
+<body>
+    <form>
+        <label for="cantidad">Cantidad: </label>
+        <input type="number" id="cantidad" class="importe">
+        <br>
+    
+        <label for="precio">Precio: </label>
+        <input type="number" id="precio" class="importe">
+        <br>
+    
+        <label for="importe">Importe: </label>
+        <input type="text" id="importe" readonly>
+        <br>
+    
+        <!-- Otros elementos de importe (puedes agregar más si es necesario) -->
+        
+        <p>Subtotal: <span id="subtotal">0.00</span></p>
+        <p>IVA: <span id="iva">0.00</span></p>
+        <p>Total: <span id="total">0.00</span></p>
+    </form>
+<script src="./calcular.js"></script>    
+</body>
+</html>
